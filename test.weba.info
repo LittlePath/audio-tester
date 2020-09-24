@@ -1,0 +1,21 @@
+ffmpeg -i firefox.test.weba -vn test.webm
+
+Input #0, ogg, from 'firefox.test.weba':
+  Duration: 00:00:07.44, start: 0.000000, bitrate: 126 kb/s
+    Stream #0:0: Audio: opus, 48000 Hz, mono, fltp
+    Metadata:
+      ENCODER         : Mozilla80.0.1
+File 'test.webm' already exists. Overwrite? [y/N] y
+Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> opus (libopus))
+Press [q] to stop, [?] for help
+[libopus @ 0x7f8896009600] No bit rate set. Defaulting to 64000 bps.
+Output #0, webm, to 'test.webm':
+  Metadata:
+    encoder         : Lavf58.45.100
+    Stream #0:0: Audio: opus (libopus), 48000 Hz, mono, flt, 64 kb/s
+    Metadata:
+      encoder         : Lavc58.91.100 libopus
+size=      57kB time=00:00:07.45 bitrate=  63.2kbits/s speed= 128x    
+video:0kB audio:54kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 5.570806%
+

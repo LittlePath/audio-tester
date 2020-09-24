@@ -1,0 +1,21 @@
+ffmpeg -i firefox.test.oga test.oga
+
+Input #0, ogg, from 'firefox.test.oga':
+  Duration: 00:00:07.21, start: 0.000000, bitrate: 126 kb/s
+    Stream #0:0: Audio: opus, 48000 Hz, mono, fltp
+    Metadata:
+      ENCODER         : Mozilla80.0.1
+File 'test.oga' already exists. Overwrite? [y/N] y
+Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> flac (native))
+Press [q] to stop, [?] for help
+[flac @ 0x7fb0d3813800] encoding as 24 bits-per-sample
+Output #0, oga, to 'test.oga':
+  Metadata:
+    encoder         : Lavf58.45.100
+    Stream #0:0: Audio: flac, 48000 Hz, mono, s32 (24 bit), 128 kb/s
+    Metadata:
+      encoder         : Lavc58.91.100 flac
+size=     567kB time=00:00:07.20 bitrate= 645.1kbits/s speed= 241x    
+video:0kB audio:565kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.473961%
+

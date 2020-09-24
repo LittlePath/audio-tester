@@ -1,0 +1,20 @@
+ffmpeg -i firefox.test.opus test.opus
+
+Input #0, ogg, from 'firefox.test.opus':
+  Duration: 00:00:07.19, start: 0.000000, bitrate: 126 kb/s
+    Stream #0:0: Audio: opus, 48000 Hz, mono, fltp
+    Metadata:
+      ENCODER         : Mozilla80.0.1
+File 'test.opus' already exists. Overwrite? [y/N] y
+Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> opus (libopus))
+Press [q] to stop, [?] for help
+[libopus @ 0x7fb3a4814200] No bit rate set. Defaulting to 64000 bps.
+Output #0, opus, to 'test.opus':
+  Metadata:
+    encoder         : Lavf58.45.100
+    Stream #0:0: Audio: opus (libopus), 48000 Hz, mono, flt, 64 kb/s
+    Metadata:
+      encoder         : Lavc58.91.100 libopus
+size=      55kB time=00:00:07.19 bitrate=  62.6kbits/s speed= 130x    
+video:0kB audio:54kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.310791%

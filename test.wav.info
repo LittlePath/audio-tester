@@ -1,0 +1,19 @@
+ffmpeg -i firefox.test.wav test.wav
+
+Input #0, ogg, from 'firefox.test.wav':
+  Duration: 00:00:07.08, start: 0.000000, bitrate: 126 kb/s
+    Stream #0:0: Audio: opus, 48000 Hz, mono, fltp
+    Metadata:
+      ENCODER         : Mozilla80.0.1
+File 'test.wav' already exists. Overwrite? [y/N] y
+Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'test.wav':
+  Metadata:
+    ISFT            : Lavf58.45.100
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s16, 768 kb/s
+    Metadata:
+      encoder         : Lavc58.91.100 pcm_s16le
+size=     663kB time=00:00:07.07 bitrate= 768.1kbits/s speed= 342x    
+video:0kB audio:663kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.011485%

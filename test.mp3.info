@@ -1,0 +1,20 @@
+ffmpeg -i firefox.test.mp3 test.mp3
+
+Input #0, ogg, from 'firefox.test.mp3':
+  Duration: 00:00:06.44, start: 0.000000, bitrate: 130 kb/s
+    Stream #0:0: Audio: opus, 48000 Hz, mono, fltp
+    Metadata:
+      ENCODER         : Mozilla80.0.1
+File 'test.mp3' already exists. Overwrite? [y/N] y
+Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'test.mp3':
+  Metadata:
+    TSSE            : Lavf58.45.100
+    Stream #0:0: Audio: mp3 (libmp3lame), 48000 Hz, mono, fltp
+    Metadata:
+      encoder         : Lavc58.91.100 libmp3lame
+size=      51kB time=00:00:06.43 bitrate=  64.5kbits/s speed=83.6x    
+video:0kB audio:50kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.458875%
+

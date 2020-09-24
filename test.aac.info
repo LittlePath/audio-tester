@@ -1,0 +1,20 @@
+ffmpeg -i firefox.test.aac test.aac
+
+Input #0, ogg, from 'firefox.test.aac':
+  Duration: 00:00:06.66, start: 0.000000, bitrate: 130 kb/s
+    Stream #0:0: Audio: opus, 48000 Hz, mono, fltp
+    Metadata:
+      ENCODER         : Mozilla80.0.1
+File 'test.aac' already exists. Overwrite? [y/N] y
+Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, adts, to 'test.aac':
+  Metadata:
+    encoder         : Lavf58.45.100
+    Stream #0:0: Audio: aac (LC), 48000 Hz, mono, fltp, 69 kb/s
+    Metadata:
+      encoder         : Lavc58.91.100 aac
+size=      60kB time=00:00:06.65 bitrate=  73.3kbits/s speed= 140x    
+video:0kB audio:57kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 3.727268%
+
